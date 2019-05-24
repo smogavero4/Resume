@@ -1,0 +1,458 @@
+body
+{
+	background-image: url("../images/Brick.jpg");
+}
+
+.Info
+{
+text-align: center;	
+color: #FFFFFF;
+font-family: 'Old Standard TT', serif;
+
+}
+
+
+.Info img
+{
+	border-radius: 300px;
+	border: 2px black solid;
+}
+
+
+
+.Navigation
+{
+	width: 78.25%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 9.6%;
+	position: fixed;
+	border: 8px solid black;
+	z-index: 9999;
+	top: 0;
+	
+}
+
+.Navigation ul
+{
+		list-style: none;
+		padding:0;
+		text-align:center;
+		margin: auto;
+}
+
+.Navigation li
+{
+		display: inline;
+}
+
+.Navigation a
+{
+	display:inline-block;
+    padding:10px;
+	font-family: 'Old Standard TT', serif;
+	text-transform: uppercase;
+	font-size: 2vw;
+	color: #000;
+	margin-left: 2%;
+}
+
+.blank
+{
+	height: 100px;
+}
+
+
+.Summary
+{
+	width: 80%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 10%;
+	opacity: .8;
+}
+
+.Summary h1
+{
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.Summary hr
+{
+	width: 250px;
+}
+
+.Summary p
+{
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Cormorant', serif;
+	font-size: 24px;
+	line-height: 30px;
+	
+}
+
+.Summary span
+{
+	font-weight: bold;
+}
+
+
+.PhotoBox
+{
+	float: left;
+	margin-left: 12%;
+	width: 20%;
+	position: relative;
+}
+
+.PhotoBox img
+{
+	width: 80%;
+	height: 200px;
+}
+
+.image
+{
+opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.PhotoBox:hover img {
+  opacity: 0.3;
+}
+
+.PhotoBox:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #7D7D7D;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.Experience
+{
+	width: 80%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y:auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 10%;
+	opacity: .8;
+}
+
+
+.Experience h1
+{
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.Experience hr
+{
+	width: 250px;
+}
+
+
+.Entry
+{
+	width: 80%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	float: left;
+	margin-left: 10%;
+	
+}
+
+.Entry img
+{
+	float: left;
+	width:100px;
+	height:100px;
+	margin-bottom: 1%;
+	margin-right: 1%;
+}
+
+.Entry p 
+{
+	margin-right: 10%;
+	margin-left:9%;
+}
+
+.Entry ul
+{
+	margin-left: 10%;
+}
+
+
+.Entry hr
+{
+
+	width: 80%;
+	margin: 0;
+	border-top: 3px double #8c8b8b;
+}
+
+
+
+
+
+.Education
+{
+	width: 80%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y:auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 10%;
+	opacity: .8;
+	
+}
+
+.Education h1
+{
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.Education hr
+{
+	width: 250px;
+}
+
+
+
+
+
+
+.Projects
+{
+	width: 80%;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y:auto;
+	padding-bottom: 20px;
+	margin-left: 10%;
+	opacity: .8;
+	
+}
+
+.Projects h1
+{
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.Projects hr
+{
+	width: 250px;
+}
+
+.Entry hr
+{
+
+	width: 80%;
+	margin: 0;
+	border-top: 3px double #8c8b8b;
+}
+
+
+.Entry p 
+{
+	margin-right: 10%;
+	margin-left:13%;
+	margin-bottom: 30px;
+}
+
+
+
+.Skills
+{
+	width: 80%;
+	height: 600px;
+	padding-top:10px;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y:auto;
+	padding-bottom: 20px;
+	margin-left: 10%;
+	opacity: .8;
+	
+}
+
+.Skills h1
+{
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.Skills hr
+{
+	width: 250px;
+}
+
+
+
+
+
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+	width: 78.9%;
+	background-color: #FFFFFF;
+	overflow: auto;
+	margin-bottom: 20px;
+	margin-left: 9.8%;
+	position: fixed;
+	border: 2px solid black;
+	z-index: 9999;
+	top: 93.75%;
+	
+}
+
+.footer ul
+{
+		list-style: none;
+		padding:0;
+		margin: auto;
+}
+
+.footer li
+{
+		display: inline;
+}
+
+.footer .Resume
+{
+	display:inline-block;
+	font-family: 'Old Standard TT', serif;
+	text-transform: uppercase;
+	font-size: 1.5vw;
+	color: #000;
+	margin-left: 2%;
+	padding-top: 10px;
+}
+
+.footer a img
+{
+	float: right;
+	margin-right: 2%;
+	padding-top: 5px;
+}

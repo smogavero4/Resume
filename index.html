@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Stephen Krycerick</title>
+	<link rel="stylesheet" href="CSS/CSS.css" type="text/css" charset="utf-8" />
+	<link rel='shortcut icon' href='images/Profile.ico' />
+
+	
+	<!-- Fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+	<!-- End Fonts  -->
+	
+	<!-- Scripts  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+</script>
+
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+</script>
+
+	<!-- End Scripts  -->
+	
+	
+</head>
+
+
+
+<body>
+
+
+
+<div class="Navigation">
+	<ul>
+	<li><a href="#Top" > Home</a></li>
+	<li><a href="#Exp"> Experience</a></li>
+	<li><a href="#Edu"> Education</a></li>
+	<li><a href="#Proj"> Projects</a></li>
+	<li><a href="#Skills"> Skills</a></li>
+	</ul>
+	</div>
+
+	
+	
+	<div class="Header">
+		
+		<div class="blank" id="Top">
+	</div>
+		<div class="Top">
+	</div>
+		<div class="Info">
+
+		<h1> Stephen Krycerick </h1>
+		<img src="images/FullProfile.jpg" alt="Stephen Krycerick">
+		<h2> 21 Rockland Ave<br> Clarence, NY 14031<br> 845.264.1443 </h2>
+		
+		</div>
+	</div>
+		
+		
+		
+		
+	
+	
+		
+		
+		
+		
+	<!-- Summary -->	
+		
+	
+	</div>
+	<div class="Summary">
+	<hr>
+		<h1> Summary </h1>
+	<hr>
+	<p> 
+	Self-motivated with excellent organization and communication skills with a knowledge of both <span>technical and business fundamentals.</span> 
+	Equipped with a strong understanding of <span>Windows and Linux OS.</span> Proven leadership ability with the ability to work with a team.  
+	Supplied with <span>5 years</span> of <span>PC and server</span> hardware and software <span>troubleshooting.</span>  
+	</p>
+	
+	
+	<div class="PhotoBox">
+	<img src="images/Certificate.jpg" class="Image" alt="Stephen Krycerick">
+	<div class="middle">
+    <div class="text">A+ Computer Repair Trained</div>
+	</div>
+	</div>
+	
+	<div class="PhotoBox">
+	<img src="images/WinLinux.jpg" class="Image" alt="WindowsLinux">
+	<div class="middle">
+    <div class="text">Windows and Linux experience</div>
+	</div>
+	</div>
+	
+	<div class="PhotoBox">
+	<img src="images/PCServer.png" class="Image" alt="PCServer">
+	<div class="middle">
+    <div class="text">PC and Server Experience</div>
+	</div>
+	</div>
+	
+	</div>
+	<!-- End Summary -->
+  
+  
+  
+  
+  <!-- Experience -->
+  
+  
+	<div class="blank" id="Exp">
+	</div>
+	<div class="Experience">
+	<hr>
+		<h1> Experience </h1>
+	<hr>
+	
+	
+	<div class="Entry">
+	<img src="images/ColoCrossing.PNG" class="Image" alt="PCServer">
+	<h2> ColoCrossing | Night Shift Coordinator </h2>
+	<h3> Jan. 2018 to Current | 325 Delaware Ave, Buffalo, NY 14202 </h3>
+
+	<p> Reports to the Director of Information Technology. Directs operations staff during the night shift. 
+	Ensure quality standards are met and work is performed accurately. 
+	</p>
+	<ul>
+	<li> Troubleshoot servers that are escalated from other technicians. </li>
+	<li> Enter orders into the queue for dedicated and colocated servers. </li>
+	<li> Coordinate technicians to ensure efficiency is met. </li>
+	<li> Take inventory of hardware and order parts as needed.  </li>
+	<li> Hold team meetings to set goals for shifts.  </li>
+	<li> Train technicians on I.T. procedures and troubleshooting.  </li>
+	
+	</ul>
+	
+	<hr>
+	</div>
+
+	
+	<div class="Entry">
+	<img src="images/ColoCrossing.PNG" class="Image" alt="PCServer">
+	<h2> ColoCrossing | Datacenter Technician </h2>
+	<h3> Feb. 2017 to Jan. 2018 | 325 Delaware Ave, Buffalo, NY 14202 </h3>
+	
+	<p> Install, configure, and maintain server-class hardware. Provide Tier 1 support by troubleshooting hardware, software, and network issues. 
+	Perform hardware upgrades and planned replacements of failed components.
+	</p>
+	<ul>
+	<li> Troubleshoot servers with Windows OS and Linux OS. </li>
+	<li> Monitor network traffic in order to mitigate DDoS attacks. </li>
+	<li> Check client scripts in python for issues or bugs. </li>
+	<li> Run MTR, Traceroutes in order to diagnose network problems.   </li>
+	<li> Install test and diagnose CentOS, Ubuntu, Debian, and ESXi operating systems.   </li>
+	<li> Route IPV4 addresses via portal's API  </li>
+	
+	</ul>
+	
+	<hr>
+	</div>
+		
+	
+	<div class="Entry">
+	<img src="images/Outback.png" class="Image" alt="PCServer">
+	<h2> Outback Steakhouse | Key Manager </h2>
+	<h3> Jan. 2016 to Feb. 2017 | 1954 W Ridge Rd, Rochester, NY 14626 </h3>
+	
+	<p> Responsible for front of house activities. Made sure guests were welcomed and had an excellent dining experience. 
+	Resolved guest concerns in a timely manner. 
+	</p>
+	<ul>
+	<li> Visited guest tables to ensure quality service was provided.  </li>
+	<li> Resolved guest question or concerns regarding their dining experience.  </li>
+	<li> Responsible for bar inventory and dining room cleanliness.  </li>
+	
+	</ul>
+	
+	<hr>
+	</div>
+	
+	
+	<div class="Entry">
+	<img src="images/Longhorn.png" class="Image" alt="PCServer">
+	<h2> Longhorn Steakhouse | Certified Server Trainer </h2>
+	<h3> Sept. 2014 to Jan. 2016 | 1837 W Ridge Rd, Greece, NY 14615 </h3>
+	
+	<p> Knowledge of both front and back of house activities.  Certifiably trained servers on new menu items and helped promote continuous restaurant growth.  
+	</p>
+	<ul>
+	<li> Coached new team members on the correct processes and procedures.  </li>
+	<li> Trained servers and cooks on new menu items.  </li>
+	<li> Ensured guests had a great experience and were happy.   </li>
+	
+	</ul>
+	
+	<hr>
+	</div>
+	
+	
+	
+	<div class="Entry">
+	<img src="images/StarCross.jpg" class="Image" alt="PCServer">
+	<h2> U.S.S. Starcross LLC | I.T Manager </h2>
+	<h3> July 2013 to Aug. 2015 | 1177 U.S. 9, Wappingers Falls, NY 12590 </h3>
+	
+	<p> Responsible for 10 technicians performing hardware and software repairs for residential clients and commercial businesses. Setup and managed 
+	the VOIP system and website.   
+	</p>
+	<ul>
+	<li> Troubleshoot Windows and Linux based systems  </li>
+	<li> Installed residential and commercial network wiring and wireless systems.   </li>
+	<li> Coordinated a team to ensure work was completed efficiently and timely.   </li>
+	<li> Managed the website and any emails sent to clients </li>
+	
+	</ul>
+	
+	</div>
+	
+	
+	</div>
+	<!-- End Experience -->
+	
+	
+	
+	<!-- Education -->
+	
+	<div class="blank" id="Edu">
+	</div>
+	<div class="Education" >
+	<hr>
+		<h1> Education</h1>
+	<hr>
+	
+	<div class="Entry">
+	<img src="images/BuffState.png" class="Image" alt="PCServer">
+	<h2> SUNY Buffalo State | B.S Computer Information Systems </h2>
+	<h3> Currently Attending | 1300 Elmwood Ave, Buffalo, NY 14222 </h3>
+
+	
+	<hr>
+	</div>
+	
+	<div class="Entry">
+	<img src="images/MCC.jpg" class="Image" alt="PCServer">
+	<h2> Monroe Community College | A.S Computer Information Systems </h2>
+	<h3> Dec 2016 | 1000 E Henrietta Rd, Rochester, NY 14623 </h3>
+	
+	<p> GPA: 3.01 
+	</p>
+	
+	<hr>
+	</div>
+	
+	<div class="Entry">
+	<img src="images/BOCES.png" class="Image" alt="PCServer">
+	<h2> Dutchess County BOCES | A+ Computer Repair Certificate </h2>
+	<h3> June 2013 | 5 Boces Rd, Poughkeepsie, NY 12601 </h3>
+	
+	<hr>
+	</div>
+	
+	<div class="Entry">
+	<img src="images/Jay.gif" class="Image" alt="PCServer">
+	<h2> John Jay High School | Advanced Regents Diploma </h2>
+	<h3> June 2013 | 2012 NY-52, Hopewell Junction, NY 12533 </h3>
+	
+	<hr>
+	</div>
+	
+	
+	
+	</div>
+	
+	<!-- End Education -->
+
+	
+	<!-- Projects -->
+	
+	<div class="blank" id="Proj">
+	</div>
+	<div class="Projects">
+	<hr>
+		<h1> Projects </h1>
+	<hr>
+	
+	
+	<div class="Entry">
+	<img src="images/ColoCrossing.PNG" class="Image" alt="PCServer">
+	<h2> Technician Training Program | ColoCrossing </h2>
+	<h3> Feb. 2017 | 325 Delaware Ave, Buffalo, NY 14202 </h3>
+	
+	<p> Developed a training program for entry-level data center technicians which helped them develop their knowledge of data center 
+	operations and company culture. Training included configuring PDU's, using a portal system, and day to day technician duties.   
+	</p>
+	
+	<hr>
+	</div>
+	
+	
+	
+	<div class="Entry">
+	<img src="images/tfpd.jpg" class="Image" alt="PCServer">
+	<h2> Town of Fishkill Police Cadets Website | Town of Fishkill Police </h2>
+	<h3> 2018 to Current | 801 NY-52, Fishkill, NY 12524 </h3>
+	
+	<p> Created and host a website for a local Police cadet post.<br>    
+	<a href="http://tfpdcadets.com/" target="blank"> www.tfpdcadets.com</a>
+	</p>
+	
+	
+	<hr>
+	</div>
+	
+	
+	<div class="Entry">
+	<img src="images/QueenClean.jpg" class="Image" alt="PCServer">
+	<h2> Dutchess Queens of Clean Website | Dutchess Queens of Clean LLC </h2>
+	<h3> Aug. 2016 to Current | Dutchess County, NY </h3>
+	
+	<p> Developed a small business website for three women in Dutchess County, New York. <br>
+	<a href="http://www.dutchessqueensofclean.tk/" target="blank"> www.dutchessqueensofclean.com</a>   
+	</p>
+	
+	<hr>
+	</div>
+	
+	
+	<div class="Entry">
+	<img src="images/Outback.png" class="Image" alt="PCServer">
+	<h2> Cone Cup Initiative | Outback Steakhouse </h2>
+	<h3> 2016 | 1954 W Ridge Rd, Rochester, NY 14626 </h3>
+	
+	<p> Proposed a solution to the extensive wait time on the delivery of food at Outback Steakhouse. This initiative stated 
+	that the use of paper cups for the restaurant staff/servers would greatly reduce time spent socializing by the water dispenser 
+	while waiting for food.  
+	<ul>
+	<li> Customer wait time was reduced by more than five minutes. </li>
+	<li> Revenue increased by 3% in a month period. </li>
+	<li> Guest satisfaction survey percentages increased by 10%.  </li>
+	</p>
+	
+	<hr>
+	</div>
+	
+	<div class="Entry">
+	<img src="images/BOCES.png" class="Image" alt="PCServer">
+	<h2> A+ Computer Repair Program Accreditation | Dutchess BOCES </h2>
+	<h3> 2013 | 5 Boces Rd, Poughkeepsie, NY 12601 </h3>
+	
+	<p> Actively worked with the committee of college professors and business owners involved with technology. Presented the course 
+	materials and led a detailed discussion resulting in approval and certification of the A+ Computer Repair Program at Dutchess County BOCES. 
+	<a href="http://www.dcboces.org/cti/computer-repair" target="blank"> www.dcboces.org/cti/computer-repair</a>
+	</p>
+	
+	</div>
+	
+
+	</div>
+		
+	<!-- End projects -->
+		
+		
+		
+	<!-- Skills -->
+	
+	<div class="blank" id="Skills">
+	</div>
+	<div class="Skills">
+	<hr>
+		<h1> SKILLS </h1>
+	<hr>
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #d35400;"><span>A+ Computer Training</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="25%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">25%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div> <!-- End Skill Bar -->
+
+
+
+	
+	
+	
+	
+	</div>
+	
+	
+		<!-- End Skills -->
+	
+	
+	
+	
+		<!-- Footer -->
+		
+	<div class="footer">
+		<ul>
+	<li><a href="Krycerick_Resume.pdf" target="blank" class="Resume" > Download a Resume copy</a></li>
+	<li><a href="https://www.linkedin.com/in/stephen-krycerick/" target="Blank"> <img src="images/Linkedin.png" width=30px; height=30px;></a></li>
+	</ul>
+		
+		
+	</div>
+	
+	
+</body>
+</html>
